@@ -14,18 +14,16 @@ export default function About() {
         }}
     >
         <SectionHeading>about me</SectionHeading>
-        <p>
+        <p className="mb-5">
             i&apos;m a recent grad with a B.S in computer science & software engineering. 
         </p>
-        <p>
-            coming from a school that prioritizes projects, i'm ready to put my knowledge to work! i&apos;m a 
-            lifelong puzzle solver and found the most fulfilling puzzles to solve in programming. from creating 3D 
-            scenes in OpenGL, to migrating a full-stack app to the cloud on AWS, to making an Android scheduling app, i am dedicated to solving problems out of each program I work on. 
-            my passion has only grown with each project i have done, and i am excited to show you what i've done so far. open to full-time work anywhere in the world.
+        <p className="mb-5">
+            i&apos;m a lifelong puzzle solver and found the most fulfilling puzzles to solve in programming. coming from a school that prioritizes projects, i&apos;m ready to 
+            build upon what i&apos;ve learned and created.
         </p>
-        <p>
-            outside of coding you can find me researching recipes and creating a tornado in my kitchen. i also have a great curiosity in astronomy - an astronomy class in college shifted my 
-            interest in the STEM field after a long debate between majoring in computer science or journalism.
+        <p className="mb-5">
+            outside of coding you can find me researching recipes and creating a tornado in my kitchen. i also have a not-so-secret love for astronomy - an astronomy class in college cemented my
+            transition to the STEM field after majoring in journalism for 2 years.
         </p>
     </motion.section>
   )
