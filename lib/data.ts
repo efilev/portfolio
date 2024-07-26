@@ -8,27 +8,27 @@ import plannaDailyImg from "@/public/PlannaDaily.png";
 
 export const links = [
   {
-    name: "home",
+    name: "Home",
     hash: "#home",
   },
   {
-    name: "about",
+    name: "About",
     hash: "#about",
   },
   {
-    name: "projects",
+    name: "Projects",
     hash: "#projects",
   },
   {
-    name: "skills",
+    name: "Skills",
     hash: "#skills",
   },
   {
-    name: "experience",
+    name: "Experience",
     hash: "#experience",
   },
   {
-    name: "contact",
+    name: "Contact",
     hash: "#contact",
   },
 ] as const;
@@ -62,25 +62,34 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "OpenGL 3D Scene",
+    title: "openGL 3D scene",
     description:
-      "OpenGL and C++ used to transform a set of basic meshes into a complex 3D scene including a coffee cup, candle, envelope and pencil on a deskpad.",
+      "openGL and C++ used to transform a set of basic meshes into a complex 3D scene including a coffee cup, candle, envelope and pencil on a deskpad.",
     tags: ["OpenGL", "C++"],
-    imageUrl:  openGLImg,
+    imageUrl: openGLImg,
   },
   {
-    title: "Angular Website",
+    title: "android",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: expressAngularImg,
-  },
-  {
-    title: "Android App",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "an Android app designed for the Google Pixel. this simple app provides a view of your month, week and day with a list of upcoming events. you can add as many events as you like and schedule SMS reminders for any future event.",
+    tags: ["android"],
     imageUrl: plannaDailyImg,
+  },
+  {
+    title: "full stack",
+    description:
+      "created a static HTML Express page and converted it to a dynamic Angular website with a frontend and backend. later migrated to the cloud using Docker and AWS",
+    tags: [
+      "JavaScript",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Angular",
+      "Git",
+      "AWS",
+    ],
+    imageUrl: expressAngularImg,
   },
 ] as const;
 
