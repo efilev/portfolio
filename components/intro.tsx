@@ -7,20 +7,12 @@ import Link from "next/link";
 import { HiDownload } from "react-icons/hi";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
+import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import { useInView } from "react-intersection-observer";
 
 export default function Intro() {
-  const { ref, inView } = useInView({
-    threshold: 0.75,
-  });
-  const { setActiveSection } = useActiveSectionContext();
-
-  useEffect(() => {
-    if (inView) {
-      setActiveSection("Home");
-    }
-  }, [inView, setActiveSection]);
+  const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -84,6 +76,10 @@ export default function Intro() {
         <Link
           href="#contact"
           className="bg-zinc-900 text-pink-100 px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:text-rose-300 focus:scale-110 hover:scale-110 transition cursor-pointer"
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now());
+          }}
         >
           contact
         </Link>
