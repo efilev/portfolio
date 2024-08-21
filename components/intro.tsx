@@ -11,7 +11,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
+  const { ref } = useSectionInView("Home", 0.25);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -61,9 +61,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">hello, i&apos;m emma.</span> i&apos;m a{" "}
-        <span className="font-bold">software engineer</span> with a passion for
-        full-stack development. i love creating art out of code and anything
-        else!
+        <span className="font-bold">software engineer</span> with a love for
+        full-stack development and creating art out of code.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -84,16 +83,22 @@ export default function Intro() {
           contact
         </Link>
         <a
-          className="bg-pink-100 text-zinc-900 px-7 py-3 flex items-center gap-2 rounded-full border border-pink-400/[0.5] hover:text-rose-300 hover:scale-110 transition cursor-pointer"
-          href="/EFMResume.pdf"
+          className="bg-pink-100 text-zinc-900 px-7 py-3 flex items-center gap-2 rounded-full border border-pink-300/[0.5] hover:text-rose-300 hover:scale-110 transition cursor-pointer"
+          href="/EFMResume2024.pdf"
           download={true}
         >
           resume <HiDownload />{" "}
         </a>
-        <a className="bg-pink-100 text-zinc-900 p-4 flex items-center gap-2 rounded-full border border-pink-400/[0.5] hover:text-rose-300 hover:scale-110 transition cursor-pointer">
+        <a
+          className="bg-pink-100 text-zinc-900 p-4 flex items-center gap-2 rounded-full border border-pink-300/[0.5] hover:text-rose-300 hover:scale-110 transition cursor-pointer"
+          href="https://www.linkedin.com/in/efilev/"
+        >
           <BsLinkedin />
         </a>
-        <a className="bg-pink-100 text-zinc-900 p-4 flex items-center gap-2 rounded-full border border-pink-400/[0.5] hover:text-rose-300 hover:scale-110 transition cursor-pointer">
+        <a
+          className="bg-pink-100 text-zinc-900 p-4 flex items-center gap-2 rounded-full border border-pink-300/[0.5] hover:text-rose-300 hover:scale-110 transition cursor-pointer"
+          href="https://github.com/emmanuelafm"
+        >
           <FaGithubSquare />
         </a>
       </motion.div>

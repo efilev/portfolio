@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "graduated university",
+    location: "Southern New Hampshire University",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "here is where i built my foundation for a diverse set of programming skills, including full-stack development, 3D graphics, reverse software engineering, UI/UX design, and much more.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021 - 2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "HR assistant",
+    location: "McNairn Packaging | Westfield, MA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "improved office efficiency by maintaining and organizing files, supported team members with project coordination and task management, collaborated with HR manager to ensure all employee records were up-to-date.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018 - 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "merchandiser",
+    location: "American Greetings | Holyoke, MA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "currently i am a merchandiser. in this role i boost sales by creating visually appealing displays and implementing effective merchandising strategies, provide product knowledge to customers, and manage inventory levels with frequent monitoring and ordering for optimal product availability.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - present",
   },
 ] as const;
 
