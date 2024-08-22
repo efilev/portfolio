@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About", 0.8);
+  const { ref } = useSectionInView("about", 0.8);
 
   return (
     <motion.section
@@ -21,18 +21,17 @@ export default function About() {
     >
       <SectionHeading>about me</SectionHeading>
       <p className="mb-5">
-        i&apos;m a recent grad with a B.S in computer science & software
+        I&apos;m a recent grad with a B.S in computer science & software
         engineering.
       </p>
       <p className="mb-5">
-        i&apos;m a lifelong puzzle solver and found the most fulfilling puzzles
-        to solve in programming. coming from a school that prioritizes projects,
-        i&apos;m ready to build upon what i&apos;ve already learned and created.
+        I&apos;m a lifelong puzzle solver and found the most fulfilling puzzles
+        to solve in programming. Coming from a school that prioritizes projects,
+        I am ready to build upon what I&apos;ve already learned and created.
       </p>
       <p className="mb-5">
-        outside of coding, i&apos;m usually researching recipes for food (and
-        coffee), spending hours perfecting my latest finds. my rainy days are
-        spent doing crosswords or playing cozy games.
+        Outside of coding, I&apos;m usually researching recipes for food (and
+        coffee).
       </p>
     </motion.section>
   );

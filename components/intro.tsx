@@ -11,7 +11,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.25);
+  const { ref } = useSectionInView("home", 0.25);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -76,7 +76,7 @@ export default function Intro() {
           href="#contact"
           className="bg-zinc-900 text-pink-100 px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:text-rose-300 focus:scale-110 hover:scale-110 transition cursor-pointer"
           onClick={() => {
-            setActiveSection("Contact");
+            setActiveSection("contact");
             setTimeOfLastClick(Date.now());
           }}
         >

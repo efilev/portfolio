@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "emma's portfolio",
   description:
-    "welcome to my portfolio! i'm a software developer with experience in creating a variety of frontend, backend, and mobile applications.",
+    "Welcome to my portfolio! I'm a software developer with experience in creating a variety of frontend, backend, and mobile applications.",
 };
 
 // Root component

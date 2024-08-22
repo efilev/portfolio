@@ -8,27 +8,27 @@ import plannaDailyImg from "@/public/PlannaDaily.png";
 
 export const links = [
   {
-    name: "Home",
+    name: "home",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "about",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "projects",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "skills",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "experience",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "contact",
     hash: "#contact",
   },
 ] as const;
@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "graduated university",
     location: "Southern New Hampshire University",
     description:
-      "here is where i built my foundation for a diverse set of programming skills, including full-stack development, 3D graphics, reverse software engineering, UI/UX design, and much more.",
+      "Here is where I built my foundation for a diverse set of programming skills, including full-stack development, 3D graphics, reverse software engineering, UI/UX design, and much more.",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - 2024",
   },
@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "HR assistant",
     location: "McNairn Packaging | Westfield, MA",
     description:
-      "improved office efficiency by maintaining and organizing files, supported team members with project coordination and task management, collaborated with HR manager to ensure all employee records were up-to-date.",
+      "Improved office efficiency by maintaining and organizing files, supported team members with project coordination and task management, collaborated with HR management to ensure all employee records were up-to-date.",
     icon: React.createElement(CgWorkAlt),
     date: "2018 - 2022",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "merchandiser",
     location: "American Greetings | Holyoke, MA",
     description:
-      "currently i am a merchandiser. in this role i boost sales by creating visually appealing displays and implementing effective merchandising strategies, provide product knowledge to customers, and manage inventory levels with frequent monitoring and ordering for optimal product availability.",
+      "In this role I boost sales by creating visually appealing displays and implementing effective merchandising strategies, provide product knowledge to customers, and manage inventory levels with frequent monitoring and ordering for optimal product availability.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - present",
   },
@@ -62,23 +62,23 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "openGL 3D scene",
+    title: "OpenGL 3D Scene",
     description:
-      "openGL and C++ used to transform a set of basic meshes into a complex 3D scene including a coffee cup, candle, envelope and pencil on a deskpad.",
+      "OpenGL and C++ used to transform a set of basic meshes into a complex 3D scene including a coffee cup, candle, envelope and pencil on a deskpad.",
     tags: ["OpenGL", "C++"],
     imageUrl: openGLImg,
   },
   {
-    title: "android",
+    title: "Android App",
     description:
-      "an Android app designed for the Google Pixel. this simple app provides a view of your month, week and day with a list of upcoming events. you can add as many events as you like and schedule SMS reminders for any future event.",
+      "An Android mobile scheduling app designed for the Google Pixel. This app provides a view of your month, week and day with a list of upcoming events. Add as many events as you like and schedule SMS reminders for any future event.",
     tags: ["android"],
     imageUrl: plannaDailyImg,
   },
   {
-    title: "full stack",
+    title: "Full-Stack Web Application",
     description:
-      "created a static HTML Express page and converted it to a dynamic Angular website with a frontend and backend. later migrated to the cloud using Docker and AWS",
+      "Created a static HTML Express page and converted it to a dynamic Angular website with a frontend and backend. Later migrated to the cloud using Docker and AWS",
     tags: [
       "JavaScript",
       "MongoDB",
