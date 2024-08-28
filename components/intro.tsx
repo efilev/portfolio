@@ -84,7 +84,7 @@ export default function Intro() {
         </Link>
         <a
           className="bg-pink-100 text-zinc-900 px-7 py-3 flex items-center gap-2 rounded-full border border-pink-300/[0.5] hover:text-rose-300 hover:scale-110 transition cursor-pointer"
-          href="/EFR.pdf" //resume updated
+          href="/PortfolioRes.pdf" //resume updated
           download={true}
         >
           resume <HiDownload />{" "}
