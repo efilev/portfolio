@@ -62,6 +62,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Travlr App",
+    description:
+      "A dynamic Angular app to book trips, with separate views for users and admins. Includes a custom backend for routing, auth, and storage. Later migrated to the cloud using Docker and AWS.",
+    tags: [
+      "JavaScript",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Angular",
+      "Git",
+      "AWS",
+    ],
+    imageUrl: expressAngularImg,
+  },
+  {
     title: "OpenGL 3D Scene",
     description:
       "OpenGL and C++ used to transform a set of basic meshes into a complex 3D scene including a coffee cup, candle, envelope and pencil on a deskpad.",
@@ -74,22 +90,6 @@ export const projectsData = [
       "An Android mobile scheduling app designed for the Google Pixel. This app provides a view of your month, week and day with a list of upcoming events. Add as many events as you like and schedule SMS reminders for any future event.",
     tags: ["android"],
     imageUrl: plannaDailyImg,
-  },
-  {
-    title: "Full-Stack Web Application",
-    description:
-      "Created a static HTML Express page and converted it to a dynamic Angular website with a frontend and backend. Later migrated to the cloud using Docker and AWS",
-    tags: [
-      "JavaScript",
-      "MongoDB",
-      "HTML",
-      "CSS",
-      "Node.js",
-      "Angular",
-      "Git",
-      "AWS",
-    ],
-    imageUrl: expressAngularImg,
   },
 ] as const;
 
