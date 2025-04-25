@@ -11,7 +11,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
-  const { ref } = useSectionInView("home", 0.25);
+  const { ref } = useSectionInView("home", 0.05);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -37,7 +37,7 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-pink-50 shadow-xl"
+              className="h-30 w-30 rounded-full object-cover border-[0.35rem] border-pink-50 shadow-xl"
             />
           </motion.div>
           <motion.span
@@ -90,13 +90,13 @@ export default function Intro() {
         </a>
         <a
           className="bg-pink-100 text-zinc-900 p-4 flex items-center gap-2 rounded-full border border-pink-300/[0.5] hover:text-rose-300 hover:scale-110 transition cursor-pointer"
-          href="https://www.linkedin.com/in/efilev/"
+          href="https://www.linkedin.com/in/efilev/" target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
           className="bg-pink-100 text-zinc-900 p-4 flex items-center gap-2 rounded-full border border-pink-300/[0.5] hover:text-rose-300 hover:scale-110 transition cursor-pointer"
-          href="https://github.com/efilev"
+          href="https://github.com/efilev" target="_blank"
         >
           <FaGithubSquare />
         </a>

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("about", 0.8);
+  const { ref } = useSectionInView("about", 0.25);
 
   return (
     <motion.section
@@ -25,8 +25,8 @@ export default function About() {
         engineering.
       </p>
       <p className="mb-5">
-        I&apos;m a lifelong puzzle solver and found the most fulfilling puzzles
-        to solve in programming. Coming from a school that prioritizes projects,
+        I&apos;m a lifelong puzzle solver and found the most fulfilling challenges
+        to conquer in programming. Coming from a school that prioritizes projects,
         I am ready to build upon what I&apos;ve already learned and created.
       </p>
       <p className="mb-5">

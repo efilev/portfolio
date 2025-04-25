@@ -15,7 +15,7 @@ interface ClickProps {
 
 export default function Project(
   { title, description, tags, imageUrl }: ProjectProps,
-  { onClick }: ClickProps
+  //{ onClick }: ClickProps
 ) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
