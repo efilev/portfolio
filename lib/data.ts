@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "graduated university",
+    title: "Graduated university",
     location: "Southern New Hampshire University",
     description:
       "Here is where I built my foundation for a diverse set of programming skills, including full-stack development, 3D graphics, reverse software engineering, UI/UX design, and much more.",
@@ -43,21 +43,28 @@ export const experiencesData = [
     date: "2021 - 2024",
   },
   {
-    title: "HR assistant",
-    location: "McNairn Packaging | Westfield, MA",
+    title: "HR Assistant",
+    location: "McNairn Packaging | Massachusetts",
     description:
       "Improved office efficiency by maintaining and organizing files, supported team members with project coordination and task management, collaborated with HR management to ensure all employee records were up-to-date.",
     icon: React.createElement(CgWorkAlt),
     date: "2018 - 2022",
   },
   {
-    title: "merchandiser",
-    location: "American Greetings | Holyoke, MA",
+    title: "Merchandiser",
+    location: "American Greetings | Massachusetts",
     description:
-      "In this role I boost sales by creating visually appealing displays and implementing effective merchandising strategies, provide product knowledge to customers, and manage inventory levels with frequent monitoring and ordering for optimal product availability.",
+      "In this role I boosted sales by creating visually appealing displays and implementing effective merchandising strategies, provided product knowledge to customers, and managed inventory levels with frequent monitoring and ordering for optimal product availability.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - present",
+    date: "2022 - 2025",
   },
+  {
+    title: "Universal Agent",
+    location: "Freedom Credit Union | Massachusetts",
+    description: "Responsible for cash handling and utilizing Insight software to process transactions, manage accounts, and generate reports. Frequently analyze data to identify patterns and potential issues.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2025 - present",
+  }
 ] as const;
 
 export const projectsData = [
@@ -88,7 +95,7 @@ export const projectsData = [
     title: "Android App",
     description:
       "An Android mobile scheduling app designed for the Google Pixel. This app provides a view of your month, week and day with a list of upcoming events. Add as many events as you like and schedule SMS reminders for any future event.",
-    tags: ["android"],
+    tags: ["Android"],
     imageUrl: plannaDailyImg,
   },
 ] as const;
