@@ -43,28 +43,13 @@ export const experiencesData = [
     date: "2021 - 2024",
   },
   {
-    title: "HR Assistant",
-    location: "McNairn Packaging | Massachusetts",
+    title: "Software Developer",
+    location: "Hampden County Sheriff's Office | Massachusetts",
     description:
-      "Improved office efficiency by maintaining and organizing files, supported team members with project coordination and task management, collaborated with HR management to ensure all employee records were up-to-date.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2018 - 2022",
-  },
-  {
-    title: "Merchandiser",
-    location: "American Greetings | Massachusetts",
-    description:
-      "In this role I boosted sales by creating visually appealing displays and implementing effective merchandising strategies, provided product knowledge to customers, and managed inventory levels with frequent monitoring and ordering for optimal product availability.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2025",
-  },
-  {
-    title: "Universal Agent",
-    location: "Freedom Credit Union | Massachusetts",
-    description: "Responsible for cash handling and utilizing Insight software to process transactions, manage accounts, and generate reports. Frequently analyze data to identify patterns and potential issues.",
+      "This is where I've landed after graduating! Here I work with C# and .NET to make WPF applications for our user base of 1,500. I also help maintain the large database, holding employee and inmate info, on Microsoft SQL Server. Currently, I am working on a project 20 years in the making, which entails programatically automating the creation, maintenance, and deletion of user accounts in Active Directory.",
     icon: React.createElement(CgWorkAlt),
     date: "2025 - present",
-  }
+  },
 ] as const;
 
 export const projectsData = [
